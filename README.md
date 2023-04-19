@@ -39,14 +39,13 @@ You need : git, php, npm
 - php : https://www.php.net/manual/en/install.php
 - npm : https://www.npmjs.com/
 
-```
+~~~
 git clone https://github.com/ed2ti/swapi-laravel
 cd swapi-laravel
 yarn install
 cd public
 php -S localhost:8080
-
-```
+~~~
 
 ### Tests
 
@@ -57,5 +56,6 @@ Route : '/people'
 Route : '/starships'
 Route : '/planets'
 
-```
+~~~
 php artisan test
+~~~
