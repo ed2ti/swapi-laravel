@@ -48,7 +48,7 @@ php artisan serve
 
 ### Tests
 
-There are feature tests for all important features. To run the tests, run the command below.
+There are feature tests for all important features. 
 
 Test Group = swapiTest
 - Route : '/'
@@ -56,6 +56,7 @@ Test Group = swapiTest
 - Route : '/starships'
 - Route : '/planets'
 
+To run the tests, run the command below.
 ~~~
 php artisan test
 ~~~
