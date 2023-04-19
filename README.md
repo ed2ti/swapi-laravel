@@ -50,10 +50,11 @@ php artisan serve
 
 There are feature tests for all important features. To run the tests, run the command below.
 
-Route : '/'
-Route : '/people'
-Route : '/starships'
-Route : '/planets'
+Test Group = swapiTest
+- Route : '/'
+- Route : '/people'
+- Route : '/starships'
+- Route : '/planets'
 
 ~~~
 php artisan test
