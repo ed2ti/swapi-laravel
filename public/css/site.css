@@ -1,0 +1,20 @@
+html * {
+
+}
+
+a {
+    text-decoration: none;
+}
+
+topnavbar .img {
+    border-radius: 25% 10%;
+    overflow: hidden;
+    background: white;
+    margin-left: 50px;
+    height: 42px;
+}
+
+topnavbar .span {
+    color: white;
+    font-family: 'Star Wars', sans-serif;
+}
