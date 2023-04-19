@@ -46,7 +46,10 @@ yarn install
 cd public
 php -S localhost:8080
 
+```
+
 ### Tests
+
 There are feature tests for all important features. To run the tests, run the command below.
 
 Route : '/'
