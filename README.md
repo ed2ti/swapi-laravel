@@ -13,9 +13,9 @@ I developed this project to test my technical skills during a job application.
 - Planets (List of Planets)
 
 ### 🔎 Search filters:
-name: The name of the Person
-name: The name of the StarShip
-name: The name of the Planet
+- name: The name of the Person
+- name: The name of the StarShip
+- name: The name of the Planet
 
 ## 🆗 watch Next Steps
 In this simple project, there are some improves that I will do affter:
