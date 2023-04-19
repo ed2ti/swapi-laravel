@@ -42,9 +42,8 @@ You need : git, php, npm
 ~~~
 git clone https://github.com/ed2ti/swapi-laravel
 cd swapi-laravel
-yarn install
-cd public
-php -S localhost:8080
+npm install
+php artisan serve
 ~~~
 
 ### Tests
