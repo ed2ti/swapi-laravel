@@ -8,14 +8,12 @@ use Tests\TestCase;
 
 class swapiTest extends TestCase
 {
-    /**
-     * A basic feature test example.
-     */
     public function test_pages(): void
     {
+        $this->withoutExceptionHandling();
         $response = $this->get('/');
         $response->assertStatus(200);
-        $response = $this->get('/peoples');
+        $response = $this->get('/people');
         $response->assertStatus(200);
         $response = $this->get('/starships');
         $response->assertStatus(200);

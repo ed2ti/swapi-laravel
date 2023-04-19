@@ -14,5 +14,5 @@ use App\Http\Controllers\swapiController;
 */
 
 Route::any('/search', [swapiController::class, 'search'])->name('search');
-yarn inRoute::get('/{resouce?}/{param?}', [swapiController::class, 'show'])->name('show');
+Route::get('/{resouce?}/{param?}', [swapiController::class, 'show'])->name('show');
 

@@ -29,10 +29,8 @@ In this simple project, there are some improves that I will do affter:
 - Bootstrap 5
 - Laravel 9
 
-## 🧑‍💻 Testing the App
-
-
 ## 🧑‍💻 Running the App
+
 Simply run the command below, and it should be available at http://localhost:[PORT], ready for you to make requests.
 
 You need : git, php, npm 
@@ -47,3 +45,14 @@ cd swapi-laravel
 yarn install
 cd public
 php -S localhost:8080
+
+### Tests
+There are feature tests for all important features. To run the tests, run the command below.
+
+Route : '/'
+Route : '/people'
+Route : '/starships'
+Route : '/planets'
+
+```
+php artisan test
